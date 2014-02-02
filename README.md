@@ -7,7 +7,10 @@ Paint
  * Date: 2/Feb/14
  * Time: 21:00
  * Copyright ©
- *
+ * University of Reykjavík
+
+
+
  * Description: The goal of this project is to write a paint application 
  * by using object-oriented design and the HTML5 canvas element.
  * User will be able to draw, make shapes, write, all with different colors and move 
