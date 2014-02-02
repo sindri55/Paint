@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Canvas testing</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="style.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.css" rel="stylesheet" />
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+        <script src="base.js"></script>
+		<script src="jquery.js"></script>
+		<script src="script.js"></script>
+		<script src="newClasses.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+	</head>
+	<body>
+        <div>
+            <p>Tool to use:</p>
+            <button id="penTool">Pen</button>
+            <button id="rectangleTool">Rectangle</button>
+            <button id="circleTool">Circle</button>
+            <button id="lineTool">Line</button>
+            <button id="moveTool">Move</button>
+			<button id="saveTool">Save</button>
+			<button id="loadTool">Load</button>
+            <input id="textbox" placeholder="Insert text, then press enter"type="text" style="position: absolute; left=50; top=50">Texti</input>
+        </div>
+        <div>
+            <p>Choose the style:</p>
+            <select id="thickness">
+                <option value="1">Thin</option>
+                <option value="5">Medium</option>
+                <option value="10">Thick</option>
+                <option value="15">Mega</option>
+            </select>
+            <select name="fontSize" id="fontSize">
+                <option value="11px ">Small font</option>
+                <option value="15px ">Medium font</option>
+                <option value="30px ">Big font</option>
+                <option value="50px ">Mega font</option>
+            </select>
+            <select name="font" id="font">
+                <option value="Georgia">Georgia</option>
+                <option value="Arial">Arial</option>
+            </select>
+        </div>
+		<div id="container" >
+			<canvas id="c" width="1000px" height="400px" ></canvas>
+		</div>
+		<div id="color-picker"> 
+			<input type="Color" id="currentColor" value="#000000">
+		</div>
+		<div>
+			<button id="undo">Undo</button>
+			<button id="redo">Redo</button>
+			<button id="clearButton">Clear Canvas</button>
+		</div>
+	</body>
+</html>
