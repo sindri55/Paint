@@ -11,7 +11,7 @@ Paint
 
 
 
- * Description: The goal of this project is to write a paint application 
+ * Description: The goal of this project is to write a paint application  
  * by using object-oriented design and the HTML5 canvas element.
  * User will be able to draw, make shapes, write, all with different colors and move 
  * things around. User can make undo and redo with his project and finally the user
