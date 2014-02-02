@@ -1,3 +1,6 @@
+Paint
+
+
 /**
  * Created with Sublime Text 2 and Vim.
  * User: Sindri Þór Stefánsson and Jakob Arinbjarnar Þórðarson
